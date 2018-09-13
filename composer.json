@@ -1,0 +1,17 @@
+{
+    "name": "balintk/workplace-facebook-comments-poc",
+    "description": "Quick proof of concept to test interacting with comments in a Workplace by Facebook group.",
+    "type": "project",
+    "require": {
+        "facebook/graph-sdk": "^5.6",
+        "vlucas/phpdotenv": "^2.5",
+        "fzaninotto/faker": "^1.8"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Balint Kleri",
+            "email": "balint@kleri.hu"
+        }
+    ]
+}
