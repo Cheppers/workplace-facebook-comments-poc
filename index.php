@@ -50,6 +50,7 @@ say('Comments from first post from response (' . $posts[0]->getField('id') . '):
 $comments = $responseComments->getGraphEdge();
 /** @var \Facebook\GraphNodes\GraphNode $comment */
 foreach ($comments as $comment) {
+  // @todo Nested comments should be retrieved recursively here.
   say('• ' . $comment->getField('id') . ': ' . $comment->getField('message'));
 }
 
